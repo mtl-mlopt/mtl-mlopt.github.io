@@ -1585,9 +1585,9 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #9a9a9a;
+		color: #292929;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
-		font-size: 13pt;
+		font-size: 26pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #5385c1;
+		color: #16757D;
 		text-decoration: underline;
 	}
 
@@ -1655,7 +1655,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5385c1;
+		color: #16757D;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -1667,7 +1667,7 @@
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.2em;
 		font-weight: 100;
 	}
 
@@ -1784,20 +1784,20 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 1em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 4em;
+			margin-bottom: 1em;
 		}
 
 			section.wrapper header h2, article.wrapper header h2 {
-				font-size: 2.75em;
+				font-size: 2.0em;
 				margin: 0 0 .5em 0;
 			}
 
 			section.wrapper header p, article.wrapper header p {
-				font-size: 1em;
+				font-size: 1.5em;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -1805,7 +1805,7 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #5385c1;
+			background: #16757D;
 			color: #bacee6;
 		}
 
@@ -1824,7 +1824,7 @@
 		@media screen and (max-width: 980px) {
 
 			section.wrapper, article.wrapper {
-				padding: 2em 0;
+				padding: 1em 0;
 			}
 
 		}
@@ -1858,12 +1858,12 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: #292929;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
 
-	header h2 + p {
+	/*header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
 	}
@@ -1878,7 +1878,7 @@
 	header h6 + p {
 		font-size: 0.9em;
 		margin-top: -0.6em;
-	}
+	}*/
 
 /* Flex */
 
@@ -2028,8 +2028,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5385c1;
-			box-shadow: 0 0 0 1px #5385c1;
+			border-color: #16757D;
+			box-shadow: 0 0 0 1px #16757D;
 		}
 
 	.select-wrapper {
@@ -2093,7 +2093,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #9a9a9a;
+			color: #292929;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2139,8 +2139,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #5385c1;
-			box-shadow: 0 0 0 1px #5385c1;
+			border-color: #16757D;
+			box-shadow: 0 0 0 1px #16757D;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2152,27 +2152,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #bbb !important;
+		color: #292929 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #bbb !important;
+		color: #292929 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #bbb !important;
+		color: #292929 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #bbb !important;
+		color: #292929 !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #bbb !important;
+		color: #292929 !important;
 		opacity: 1.0;
 	}
 
@@ -2652,7 +2652,7 @@
 			input[type="button"].alt.icon:before,
 			button.alt.icon:before,
 			.button.alt.icon:before {
-				color: #bbb;
+				color: #292929;
 			}
 
 		input[type="submit"].special,
@@ -2660,7 +2660,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #5385c1;
+			background-color: #16757D;
 			color: #ffffff !important;
 		}
 
@@ -2689,7 +2689,7 @@
 		button:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #9a9a9a !important;
+			background-color: #292929 !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: #fff !important;
 			cursor: default;
@@ -2716,7 +2716,7 @@
 	}
 
 		.subpage #header {
-			background: #5385c1;
+			background: #16757D;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2855,7 +2855,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #5385c1;
+		background: #16757D;
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
@@ -2940,13 +2940,13 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
-		border-top: 0.5em solid #5385c1;
+		border-top: 0.5em solid #16757D;
 	}
 
 		#banner h1 {
 			font-size: 3.5em;
-			font-weight: 100;
-			color: #fff;
+			font-weight: 700;
+			color: #132927;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -3014,19 +3014,19 @@
 	}
 
 	#footer .copyright {
-		color: #bbb;
+		color: #292929;
 		font-size: 0.8em;
 		margin: 0 0 2em 0;
 		padding: 0;
 	}
 
 		#footer .copyright a {
-			color: #bbb;
+			color: #292929;
 			text-decoration: none;
 		}
 
 			#footer .copyright a:hover {
-				color: #bbb;
+				color: #292929;
 				text-decoration: underline;
 			}
 
