@@ -1587,15 +1587,15 @@
 	body, input, select, textarea {
 		color: #292929;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
-		font-size: 26pt;
-		font-weight: 300;
+		font-size: 30pt;
+		font-weight: 500;
 		line-height: 1.65;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1603,7 +1603,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1611,7 +1611,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1848,11 +1848,11 @@
 		@media screen and (max-width: 480px) {
 
 			section.wrapper, article.wrapper {
-				text-align: center;
+				text-align: left;
 			}
 
 				section.wrapper article, article.wrapper article {
-					text-align: center;
+					text-align: left;
 				}
 
 		}
@@ -2309,10 +2309,10 @@
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
-
+/*
 		ul li {
 			padding-left: 0.5em;
-		}
+		}*/
 
 		ul.alt {
 			list-style: none;
@@ -2357,7 +2357,7 @@
 			ul.actions li {
 				display: inline-block;
 				padding: 0 1em 0 0;
-				vertical-align: middle;
+				vertical-align: left;
 			}
 
 				ul.actions li:last-child {
@@ -2424,7 +2424,7 @@
 					ul.actions li {
 						padding: 1em 0 0 0;
 						display: block;
-						text-align: center;
+						text-align: left;
 						width: 100%;
 					}
 
@@ -2904,7 +2904,7 @@
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			vertical-align: left;
 			width: 5em;
 		}
 
