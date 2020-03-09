@@ -1839,16 +1839,16 @@
 					font-size: 2em;
 				}
 
-				section.wrapper header p, article.wrapper header p {
+				/*section.wrapper header p, article.wrapper header p {
 					font-size: .9em;
-				}
+				}*/
 
 		}
 
 		@media screen and (max-width: 480px) {
 
 			section.wrapper, article.wrapper {
-				text-align: left;
+				text-align: center;
 			}
 
 				section.wrapper article, article.wrapper article {
