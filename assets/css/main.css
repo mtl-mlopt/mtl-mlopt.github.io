@@ -2944,10 +2944,10 @@
 	}
 
 		#banner h1 {
-			font-size: 3.5em;
+			font-size: 5.0em;
 			font-weight: 700;
 			color: #132927;
-			line-height: 1em;
+			line-height: 0.1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
