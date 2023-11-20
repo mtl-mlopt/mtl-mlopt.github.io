@@ -1,0 +1,10 @@
+---
+author: Francis Bach
+title: On the effectiveness of Richardson Extrapolation in Machine Learning
+date: 2020-06-05 4:00pm
+room: Virtual
+paper: https://arxiv.org/abs/2002.02835
+video: xvAm3wmmO3g
+---
+
+Richardson extrapolation is a classical technique from numerical analysis that can improve the approximation error of an estimation method by combining linearly several estimates obtained from different values of one of its hyperparameters, without the need to know in details the inner structure of the original estimation method. The main goal of this paper is to study when Richardson extrapolation can be used within machine learning, beyond the existing applications to step-size adaptations in stochastic gradient descent. We identify two situations where Richardson interpolation can be useful: (1) when the hyperparameter is the number of iterations of an existing iterative optimization algorithm, with applications to averaged gradient descent and Frank-Wolfe algorithms (where we obtain asymptotically rates of O(1/k2) on polytopes, where k is the number of iterations), and (2) when it is a regularization parameter, with applications to Nesterov smoothing techniques for minimizing non-smooth functions (where we obtain asymptotically rates close to O(1/k2) for non-smooth functions), and ridge regression. In all these cases, we show that extrapolation techniques come with no significant loss in performance, but with sometimes strong gains, and we provide theoretical justifications based on asymptotic developments for such gains, as well as empirical illustrations on classical problems from machine learning.

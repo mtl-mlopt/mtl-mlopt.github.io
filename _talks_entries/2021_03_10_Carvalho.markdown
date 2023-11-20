@@ -1,0 +1,6 @@
+---
+author: Margarida Carvalho
+title: Combinatorial optimization for games
+date: 2021-03-10 4:00pm
+room: Room H.07
+---

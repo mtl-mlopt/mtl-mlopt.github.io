@@ -1,0 +1,6 @@
+---
+author: Aaron Defazio
+title: Why are we still using SGD in the 21st century? Adventures in large-scale deep learning	
+date: 2021-05-07 4:00pm
+room: Room H.07
+---

@@ -1,0 +1,6 @@
+---
+author: Robert M. Gower
+title: New Viewpoints, Variants and Convergence Theory for Stochastic Polyak Stepsizes
+date: 2021-01-27 4:00pm
+room: Room H.07
+---

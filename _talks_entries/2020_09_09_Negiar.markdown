@@ -1,0 +1,6 @@
+---
+author: Geoffrey Negiar
+title: Stochastic Frank-Wolfe for Constrained Finite-Sum Minimization
+date: 2020-09-09 4:00pm
+room: Virtual
+---

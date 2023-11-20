@@ -1,0 +1,6 @@
+---
+author: Ludwig Schmidt
+title: Evaluating Machine (Human) Accuracy and Robustness on ImageNet
+date: 2021-05-30 4:00pm
+room: Room H.07
+---

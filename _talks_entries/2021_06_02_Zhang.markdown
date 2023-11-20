@@ -1,0 +1,6 @@
+---
+author: Tong Zhang
+title: Why Cosine Learning Rate Scheduler Works and How to Improve It
+date: 2021-06-02 4:00pm
+room: Room H.07
+---

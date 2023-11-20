@@ -1,0 +1,6 @@
+---
+author: Lorenzo Rosasco
+title: An implicit tour of regularization
+date: 2021-02-10 4:00pm
+room: Room H.07
+---

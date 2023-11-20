@@ -1,0 +1,33 @@
+
+
+{% assign sortedtalks = site.talks_entries | sort: 'date' %}
+{% if sortedtalks.last.date > site.time %}
+
+<p class="title is-4">Upcoming Talks</p>
+
+<div class="columns is-multiline">
+
+	{% assign max_talk_number = 3 %}
+	
+	{% capture _ %}{% increment talk_number %}{% endcapture %}
+    {% for talk in sortedtalks %}
+		{% if talk.date> site.time%}
+		
+			{% capture _ %}{% increment talk_number %}{% endcapture %}
+			{% if talk_number > max_talk_number %}
+				{% break %}
+			{% endif %}
+			
+			<div class="column is-12">
+			<a href="{{site.baseurl}}{{talk.url}}">
+				{% include post-card.html %}
+			</a>
+			</div>
+		{% endif %}
+    {% endfor %}
+	
+	
+</div>
+{% else %}
+<p class="title is-4">No Upcoming Talks</p>
+{% endif %}

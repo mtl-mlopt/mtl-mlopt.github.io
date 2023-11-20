@@ -1,0 +1,17 @@
+<div class="box person">
+    {% if researcher.website %}
+        <a href="{{researcher.website}}">
+    {% endif %}
+    <div class="image round">
+        {% if researcher.photo %}
+        <img src="photo/{{researcher.photo}}">
+        {% else %}
+        <img src="photo/avatar_empty.png">
+        {% endif %}
+    </div>
+    <div class="researcher_name">{{  researcher.name  }}</div>
+    <div class="researcher_institution">{{ researcher.institution }}</div>
+    {% if researcher.website %}
+        </a>
+    {% endif %}
+  </div>

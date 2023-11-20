@@ -1,0 +1,13 @@
+- name: Talks schedule
+  link: talks
+- name: Organizers
+  link: organizers
+  dropdown: 
+    - name: All 
+      link: /organizers
+    - name: Current
+      link: /organizers#current
+    - name: Alumnis
+      link: /organizers#alumnis
+- name: Archive
+  link: ./archive/index.html

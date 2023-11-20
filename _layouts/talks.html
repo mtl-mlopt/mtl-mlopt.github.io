@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+
+<h2> Speaker: {{page.author}} </h2>
+
+<div> <b>Where:</b> {{page.room}}.</div> 
+<div> <b>When:</b> {{page.date | date: "%B %d, %Y at %H:%M" }}.</div>
+
+{% if page.video %}
+{% include youtube.html video=page.video %}
+{% endif %}
+
+
+{% if page.paper %}
+<h3> Reference(s) </h3>
+<ul>
+{% for p in page.paper %}
+<li> {{p}} </li>
+{% endfor %}
+</ul>
+{%endif%}
+
+<h2> Abstract </h2>
+
+<div> {{page.content}}</div>
+
+
+<div class="tags">
+    {% for tag in page.tags %}
+      {% include tag.html tag=tag %}
+    {% endfor %}
+</div>
+
+{% unless site.hide_share_buttons %}
+{% include share-buttons.html %}
+{% endunless %}
+
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}

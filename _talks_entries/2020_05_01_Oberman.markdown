@@ -1,0 +1,9 @@
+---
+author: Adam Oberman
+title: Accelerated stochastic gradient descent, convergence rate and empirical results
+date: 2020-05-01 4:00pm
+room: Virtual
+paper: https://arxiv.org/abs/1908.07861
+---
+
+We present a coupled system of ODEs which, when discretized with a constant time step/learning rate, recovers Nesterov's accelerated gradient descent algorithm. The same ODEs, when discretized with a decreasing learning rate, leads to novel stochastic gradient descent (SGD) algorithms, one in the convex and a second in the strongly convex case. In the strongly convex case, we obtain an algorithm superficially similar to momentum SGD, but with additional terms. In the convex case, we obtain an algorithm with a novel order k3/4 learning rate. We prove, extending the Lyapunov function approach from the full gradient case to the stochastic case, that the algorithms converge at the optimal rate for the last iterate of SGD, with rate constants which are better than previously available.

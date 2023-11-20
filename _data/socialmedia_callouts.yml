@@ -1,0 +1,14 @@
+style: is-light
+height: is-medium
+items:
+  - icon: fa-envelope
+    call_to_action_name: Join the mailing list
+    call_to_action_link: https://groups.google.com/forum/#!forum/mtl-ml-opt
+  - icon_brand: true
+    icon: fa-brands fa-youtube
+    call_to_action_name: Recorded talks
+    call_to_action_link: https://www.youtube.com/playlist?list=PLqrJF7iQbscALPio49SSil8XDbfNAlOTO
+  - icon: fa-brands fa-x-twitter
+    icon_brand: true
+    call_to_action_name: X (Twitter)
+    call_to_action_link: https://twitter.com/mtl_mlopt

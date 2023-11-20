@@ -1,0 +1,7 @@
+---
+author: Mark Sellke
+title: A Universal Law of Robustness via Isoperimetry
+date: 2021-07-14 4:00pm
+paper: https://arxiv.org/pdf/2105.12806.pdf
+room: Room H.07
+---

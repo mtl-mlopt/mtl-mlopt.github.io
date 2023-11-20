@@ -1,0 +1,6 @@
+---
+author: Aude Genevay
+title: Learning with entropy-regularized optimal transport
+date: 2020-09-23 4:00pm
+room: Virtual
+---

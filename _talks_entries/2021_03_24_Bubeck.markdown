@@ -1,0 +1,6 @@
+---
+author: Sebastien Bubeck
+title: A law of robustness for two-layers neural networks	
+date: 2021-03-24 4:00pm
+room: Room H.07
+---

@@ -1,0 +1,6 @@
+---
+author: Ashia Wilson
+title: Variational Perspectives on Machine Learning, Algorithms, Inference, and Fairness
+date: 2020-11-04 4:00pm
+room: Virtual
+---

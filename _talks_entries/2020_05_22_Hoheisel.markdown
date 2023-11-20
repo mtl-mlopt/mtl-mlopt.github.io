@@ -1,0 +1,9 @@
+---
+author: Tim Hoheisel
+title: Cone-Convexity and Composite Functions
+date: 2020-05-22 4:00pm
+room: Virtual
+paper: https://arxiv.org/abs/1907.08318
+---
+
+In this note we provide a full conjugacy and subdifferential calculus for convex convex-composite functions in finite-dimensional space. Our approach, based on infimal convolution and cone-convexity, is straightforward and yields the desired results under a verifiable Slater-type condition, with relaxed monotonicity and without lower semicontinuity assumptions on the functions in play. The versatility of our findings is illustrated by a series of applications in optimization and matrix analysis, including conic programming, matrix-fractional, variational Gram, and spectral functions.
