@@ -1,6 +1,6 @@
 ---
 author: Bonaventure Dossou
-title: Bridging Linguistic Frontiers: Machine Learning & NLP Innovations Empowering African Languages: Challenges, Progress, and Promising Futures
+title: "Bridging Linguistic Frontiers: Machine Learning & NLP Innovations Empowering African Languages: Challenges, Progress, and Promising Futures"
 date: 2023-07-19 1:00pm
 room: Auditorium 1
 ---
