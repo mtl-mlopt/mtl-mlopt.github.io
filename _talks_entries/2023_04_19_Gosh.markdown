@@ -1,7 +1,7 @@
 ---
 author: Arna Gosh
-title: alpha-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay
-date: 2020-10-07 1:30pm
+title: "alpha-ReQ : Assessing Representation Quality in Self-Supervised Learning by measuring eigenspectrum decay"
+date: 2023-04-19 1:30pm
 room: Mila, Agora
 ---
 
