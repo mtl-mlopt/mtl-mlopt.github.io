@@ -1,0 +1,6 @@
+---
+author: Tristan Deleu
+title: Causal discovery with GFlowNets
+date: 2023-05-31 1:30pm
+room: Auditorium 2
+---
