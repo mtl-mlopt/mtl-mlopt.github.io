@@ -1,0 +1,7 @@
+---
+author: Tiffany Vlaar
+title: Constrained and Multirate Training of Neural Networks
+date: 2023-07-12 1:30pm
+room: Auditorium 1
+---
+I will describe algorithms for regularizing and training deep neural networks. Soft constraints, which add a penalty term to the loss, are typically used as a form of explicit regularization for neural network training. In this talk I describe a method for efficiently incorporating constraints into a stochastic gradient Langevin framework for the training of deep neural networks. In contrast to soft constraints, our constraints offer direct control of the parameter space, which allows us to study their effect on generalization. In the second part of the talk, I will focus on the role played by individual layers and substructures of neural networks. In particular, I will show that by choosing appropriate partitionings of the network parameters into fast and slow parts, a multirate approach can be used to train deep neural networks for transfer learning applications in vision and natural language processing in half the time, without reducing the generalization performance of the model.
