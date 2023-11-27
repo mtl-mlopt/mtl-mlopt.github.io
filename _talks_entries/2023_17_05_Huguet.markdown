@@ -1,0 +1,7 @@
+---
+author: Guillaume Huguet
+title: The heat operator for dimensionality reduction and optimal transport
+date: 2023-07-05 1:30pm
+room: Auditorium 1
+---
+In this talk we will consider applications of the heat equation on a graph for Dimensionality Reduction (DR) and Optimal Transport (OT). Applying the heat operator to a distribution diffuses the distribution over the graph following the heat equation. For any diffusion time, we know how much mass (heat) is left on a node. Inspired by the two-sided heat operator bound, that links the heat kernel and the geodesic distance, we define the heat-geodesic dissimilarity and the heat-geodesic embedding. Then, we will study the relationship between other diffusion-based methods and the heat-geodesic embedding. Finally, we will present results using this dissimilarity for DR and problems in OT with a focus on Single-Cell RNA sequencing datasets.
