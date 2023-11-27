@@ -276,7 +276,7 @@ width: 100%;
       {% endfor %}
     </div>
     <header>
-      <h2 id="alumnis">Alumnis</h2>
+      <h2 id="alumnis">Past organizers</h2>
     </header>
     <div class="flex flex-4">
       {% for researcher in site.alumnis %}
