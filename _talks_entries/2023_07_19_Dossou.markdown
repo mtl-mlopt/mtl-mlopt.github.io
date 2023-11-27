@@ -1,0 +1,7 @@
+---
+author: Bonaventure Dossou
+title: Bridging Linguistic Frontiers: Machine Learning & NLP Innovations Empowering African Languages: Challenges, Progress, and Promising Futures
+date: 2023-07-19 1:00pm
+room: Auditorium 1
+---
+Whether expressed written, spoken, or signed, language is crucial for human communication and ensures understanding between people across regions. With the growing awareness and effort to include more low-resourced languages in NLP research, African languages have recently been a major subject of research in natural language processing. Accounting for more than 31% of living spoken languages, African languages are morphologically, culturally rich, diverse, and low-resourced. Covering a range of topics from (multilingual) machine translation, speech recognition, language modeling, named entity recognition, part-of-speech to datasets, and Lanfrica; in this presentation, I will share my journey into AfricaNLP research, challenges faced, progresses made, and future insights.
