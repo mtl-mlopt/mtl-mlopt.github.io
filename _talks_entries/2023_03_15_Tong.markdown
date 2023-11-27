@@ -1,6 +1,6 @@
 ---
 author: Alex Tong
-title: Conditional Flow Matching: Simulation-Free Dynamic Optimal Transport
+title: "Conditional Flow Matching: Simulation-Free Dynamic Optimal Transport"
 date: 2023-03-15 1:30pm
 room: Auditorium 1
 ---
