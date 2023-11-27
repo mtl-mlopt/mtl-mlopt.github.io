@@ -1,0 +1,8 @@
+---
+author: Alex Tong
+title: Conditional Flow Matching: Simulation-Free Dynamic Optimal Transport
+date: 2022-03-15 1:30pm
+room: Auditorium 1
+---
+
+Continuous normalizing flows (CNFs) are an attractive generative modeling technique, but they have thus far been held back by limitations in their simulation-based maximum likelihood training. In this paper, we introduce a new technique called conditional flow matching (CFM), a simulation-free training objective for CNFs. CFM features a stable regression objective like that used to train the stochastic flow in diffusion models but enjoys the efficient inference of deterministic flow models. In contrast to both diffusion models and prior CNF training algorithms, our CFM objective does not require the source distribution to be Gaussian or require evaluation of its density. Based on this new objective, we also introduce optimal transport CFM (OT-CFM), which creates simpler flows that are more stable to train and lead to faster inference, as evaluated in our experiments. Training CNFs with CFM improves results on a variety of conditional and unconditional generation tasks such as inferring single cell dynamics, unsupervised image translation, and Schrödinger bridge inference.
