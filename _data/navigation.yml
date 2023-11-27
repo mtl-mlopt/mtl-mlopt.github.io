@@ -7,7 +7,7 @@
       link: /organizers
     - name: Current
       link: /organizers#current
-    - name: Alumnis
+    - name: Past organizers
       link: /organizers#alumnis
 - name: Archive
   link: ./archive/index.html
