@@ -1,0 +1,6 @@
+---
+author: Nicolas Le roux
+title: Recent advances in functional optimization
+date: 2023-06-14 1:30pm
+room: Auditorium 2
+---
