@@ -3045,9 +3045,9 @@ div.highlight { margin-bottom: 1rem; }
 
 .gh-sponsor { color: #ea4aaa; }
 
-table tbody tr:nth-child(2n+1) { background-color: rgba(144, 144, 144, 0.075); }
+table tbody tr:nth-child(2n+1) { background-color: rgba(144, 144, 144, 0.075); overflow: hidden; text-overflow: ellipsis; }
 
-table tbody tr:nth-child(n):hover { background-color: rgba(79, 125, 201, 0.2); }
+table tbody tr:nth-child(n):hover { background-color: rgba(79, 125, 201, 0.2); overflow: hidden; text-overflow: ellipsis; }
 
 .img-circle { clip-path: circle(); width: 100%; height: auto; }
 

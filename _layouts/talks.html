@@ -12,15 +12,24 @@ layout: page
 {% include youtube.html video=page.video %}
 {% endif %}
 
-
 {% if page.paper %}
 <h3> Reference(s) </h3>
 <ul>
 {% for p in page.paper %}
-<li> {{p}} </li>
+<li>  <a href="{{p}}"> {{p}} </a> </li>
 {% endfor %}
 </ul>
 {%endif%}
+
+{% if page.miscellaneous %}
+<h3> Miscellaneous </h3>
+<ul>
+  {% for item in page.miscellaneous %}
+    <li>{{ item[0] | capitalize }}: <a href="{{ item[1] }}">{{ item[1] }}</a></li>
+  {% endfor %}
+</ul>
+{%endif%}
+
 
 <h2> Abstract </h2>
 

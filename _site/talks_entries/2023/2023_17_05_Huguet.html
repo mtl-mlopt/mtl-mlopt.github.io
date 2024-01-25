@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="ltr"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The heat operator for dimensionality reduction and optimal transport | Montreal MLOpt</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="The heat operator for dimensionality reduction and optimal transport" />
+<meta name="author" content="Guillaume Huguet" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="In this talk we will consider applications of the heat equation on a graph for Dimensionality Reduction (DR) and Optimal Transport (OT). Applying the heat operator to a distribution diffuses the distribution over the graph following the heat equation. For any diffusion time, we know how much mass (heat) is left on a node. Inspired by the two-sided heat operator bound, that links the heat kernel and the geodesic distance, we define the heat-geodesic dissimilarity and the heat-geodesic embedding. Then, we will study the relationship between other diffusion-based methods and the heat-geodesic embedding. Finally, we will present results using this dissimilarity for DR and problems in OT with a focus on Single-Cell RNA sequencing datasets." />
+<meta property="og:description" content="In this talk we will consider applications of the heat equation on a graph for Dimensionality Reduction (DR) and Optimal Transport (OT). Applying the heat operator to a distribution diffuses the distribution over the graph following the heat equation. For any diffusion time, we know how much mass (heat) is left on a node. Inspired by the two-sided heat operator bound, that links the heat kernel and the geodesic distance, we define the heat-geodesic dissimilarity and the heat-geodesic embedding. Then, we will study the relationship between other diffusion-based methods and the heat-geodesic embedding. Finally, we will present results using this dissimilarity for DR and problems in OT with a focus on Single-Cell RNA sequencing datasets." />
+<link rel="canonical" href="http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html" />
+<meta property="og:url" content="http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html" />
+<meta property="og:site_name" content="Montreal MLOpt" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-07-05T13:30:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="The heat operator for dimensionality reduction and optimal transport" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Guillaume Huguet"},"dateModified":"2023-07-05T13:30:00-04:00","datePublished":"2023-07-05T13:30:00-04:00","description":"In this talk we will consider applications of the heat equation on a graph for Dimensionality Reduction (DR) and Optimal Transport (OT). Applying the heat operator to a distribution diffuses the distribution over the graph following the heat equation. For any diffusion time, we know how much mass (heat) is left on a node. Inspired by the two-sided heat operator bound, that links the heat kernel and the geodesic distance, we define the heat-geodesic dissimilarity and the heat-geodesic embedding. Then, we will study the relationship between other diffusion-based methods and the heat-geodesic embedding. Finally, we will present results using this dissimilarity for DR and problems in OT with a focus on Single-Cell RNA sequencing datasets.","headline":"The heat operator for dimensionality reduction and optimal transport","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html"},"url":"http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Montreal MLOpt
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <a href="/talks" class="navbar-item ">Talks schedule</a>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/organizers" class="navbar-link ">Organizers</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/organizers" class="navbar-item ">All</a>
+                            
+                            <a href="/organizers#current" class="navbar-item ">Current</a>
+                            
+                            <a href="/organizers#alumnis" class="navbar-item ">Past organizers</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/archive/index.html" class="navbar-item ">Archive</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-small  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">The heat operator for dimensionality reduction and optimal transport</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+
+                    
+                    
+                    
+<div class="content">
+    <h2> Speaker: Guillaume Huguet </h2>
+
+<div> <b>Where:</b> Auditorium 1.</div> 
+<div> <b>When:</b> July 05, 2023 at 13:30.</div>
+
+
+
+
+
+
+
+
+<h2> Abstract </h2>
+
+<div> <p>In this talk we will consider applications of the heat equation on a graph for Dimensionality Reduction (DR) and Optimal Transport (OT). Applying the heat operator to a distribution diffuses the distribution over the graph following the heat equation. For any diffusion time, we know how much mass (heat) is left on a node. Inspired by the two-sided heat operator bound, that links the heat kernel and the geodesic distance, we define the heat-geodesic dissimilarity and the heat-geodesic embedding. Then, we will study the relationship between other diffusion-based methods and the heat-geodesic embedding. Finally, we will present results using this dissimilarity for DR and problems in OT with a focus on Single-Cell RNA sequencing datasets.</p>
+</div>
+
+
+<div class="tags">
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook"
+       onclick="window.open('https://www.facebook.com/share.php?u=http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter"
+       onclick="window.open('https://twitter.com/intent/tweet?text=http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin"
+       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html&title=The+heat+operator+for+dimensionality+reduction+and+optimal+transport&summary=&source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit"
+       onclick="window.open('https://reddit.com/submit?url=http://localhost:4000/talks_entries/2023/2023_17_05_Huguet.html');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

@@ -1,6 +1,7 @@
 
 
 {% assign sortedtalks = site.talks_entries | sort: 'date' %}
+
 {% if sortedtalks.last.date > site.time %}
 
 <p class="title is-4">Upcoming Talks</p>
