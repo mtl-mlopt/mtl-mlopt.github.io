@@ -1,7 +1,7 @@
 ---
 author: Michael Rabbat
 title: Benchmarking Neural Network Training Algorithms
-date: 2024-02-09 1:00pm
+date: 2024-02-09 1:30pm
 paper: [https://arxiv.org/abs/2306.07179]
 miscellaneous: 
     github: https://github.com/mlcommons/algorithmic-efficiency/
