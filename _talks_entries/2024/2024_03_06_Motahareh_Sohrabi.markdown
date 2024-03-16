@@ -1,9 +1,9 @@
 ---
 author: Motahareh Sohrabi
 title: Weight-Sharing Regularization
-date: 2024-03-06 1:30pm
+date: 2024-03-06 1:00pm
 paper: [https://arxiv.org/abs/2311.03096]
-room: Mila, Auditorium
+room: Mila, Auditorium 2
 ---
 
 Weight-sharing is ubiquitous in deep learning. Motivated by this, we introduce “weight-sharing regularization” for neural networks, defined as
