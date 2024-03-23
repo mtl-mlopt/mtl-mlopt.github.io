@@ -2,7 +2,6 @@
 author: Jose Gallego-Posada
 title: On PI controllers for updating Lagrange multipliers in constrained optimization
 date: 2024-03-20 1:00pm
-paper: [TBD]
 room: Microsoft Research Labs
 ---
 
