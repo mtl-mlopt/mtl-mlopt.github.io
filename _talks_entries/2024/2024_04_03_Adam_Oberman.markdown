@@ -2,7 +2,7 @@
 author: Adam Oberman
 title: Theoretical insights into self-supervised feature representation learning.
 date: 2024-04-03 1:00pm
-room: Mila, Auditorium 2
+room: Microsoft Research Labs
 ---
 
 Adam Oberman is a McGill mathematics Professor and CIFAR AI chair on sabbatical at Mila this year. He teaches two Machine Learning classes, including one on generalization and stability theory.

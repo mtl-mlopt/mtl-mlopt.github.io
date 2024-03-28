@@ -2,7 +2,7 @@
 author: Eliott Paquette
 title: Random matrix theory for high dimensional optimization, and an application to scaling laws
 date: 2024-04-26 1:00pm
-room: Mila, Auditorium 2
+room: Microsoft Research Labs
 ---
 
 We describe a program of analysis of stochastic gradient methods on high-dimensional random objectives. We illustrate some assumptions under which the loss curves are universal, in that they can completely be described in terms of some underlying covariances.  Furthermore, we give description of these loss curves that can be analyzed precisely.
