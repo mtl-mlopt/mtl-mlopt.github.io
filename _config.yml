@@ -12,23 +12,23 @@ collections:
     sort_by: name
   talks_entries:
     output: true
-    
+
 defaults:
   -
     scope:
       path: ""
-      type: "talks_entries" 
+      type: "talks_entries"
     values:
       layout: "talks"
       hero_height: is-small
 
 # Build settings
 # theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 plugins:
   - jekyll-feed
- 
+
 remote_theme: chrisrhymes/bulma-clean-theme
 
 # Theme-related config
