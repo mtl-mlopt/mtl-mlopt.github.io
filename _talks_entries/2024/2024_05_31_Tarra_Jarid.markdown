@@ -1,7 +1,7 @@
 ---
 author: Tara Akhound-Sadegh and Jarrid Rector-Brooks
 title: Iterated Denoising Energy Matching for Sampling from Boltzmann Densities
-date: 2025-05-31 1:00pm
+date: 2024-05-31 1:00pm
 room: Mila Auditorium 2
 ---
 
