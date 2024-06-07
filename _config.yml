@@ -14,8 +14,7 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "talks_entries"
     values:
@@ -29,12 +28,9 @@ remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - jekyll-feed
 
-remote_theme: chrisrhymes/bulma-clean-theme
-
 # Theme-related config
 lang: en
 fixed_navbar: top
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
