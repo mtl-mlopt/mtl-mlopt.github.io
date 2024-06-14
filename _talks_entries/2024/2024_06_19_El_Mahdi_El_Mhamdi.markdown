@@ -1,7 +1,7 @@
 ---
 author: El Mahdi El Mhamdi
 title: On the security of large AI models
-date: 2025-06-19 1:00pm
+date: 2024-06-19 1:00pm
 room: Mila Auditorium 1 (online speaker)
 ---
 
