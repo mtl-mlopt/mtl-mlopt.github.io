@@ -1,6 +1,6 @@
 ---
 author: Samuel Vaiter
-title: (Automatic) Iterative Differentiation: some old (& new) results
+title: "(Automatic) Iterative Differentiation: some old (& new) results"
 date: 2024-06-26 1:00pm
 room: Mila Auditorium 2
 ---
