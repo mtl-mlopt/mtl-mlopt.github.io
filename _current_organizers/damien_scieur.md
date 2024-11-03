@@ -1,6 +1,6 @@
 ---
 name: Damien Scieur
-institution: Samsung SAIL Montreal
+institution: Research Scientist, Samsung SAIL Montreal
 photo: damien.jpg
 website: https://damienscieur.com
 ---

@@ -1,6 +1,6 @@
 ---
 name: Quentin Bertrand
-institution: Postdoc, Université de Montréal
+institution: Researcher, Inria Lyon
 photo: quentin.png
 website: https://qb3.github.io/
 ---

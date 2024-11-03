@@ -1,6 +1,6 @@
 ---
 name: Kilian Fatras
-institution: Postdoc, McGill University
+institution: Research Scientist, Dreamfold
 photo: killian.png
 website: https://kilianfatras.github.io/
 ---

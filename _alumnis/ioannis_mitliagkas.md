@@ -1,6 +1,6 @@
 ---
 name: Ioannis Mitliagkas
-institution: Université de Montréal
+institution: Associate Professor, Université de Montréal
 photo: ioannis.jpg
 website: https://mitliagkas.github.io/
 ---
