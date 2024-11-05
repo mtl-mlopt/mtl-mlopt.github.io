@@ -4,6 +4,9 @@ items:
   - icon: fa-envelope
     call_to_action_name: Join the mailing list
     call_to_action_link: https://groups.google.com/forum/#!forum/mtl-ml-opt
+  - icon: fa-solid fa-user
+    call_to_action_name: Suggest a speaker
+    call_to_action_link: https://forms.gle/LSq6YPFWAEdJyqH49
   - icon_brand: true
     icon: fa-brands fa-youtube
     call_to_action_name: Recorded talks
