@@ -4,3 +4,17 @@ $primary: #4f7dc9;
 // Import Main CSS file from theme
 @import "main";
 @import "table";
+
+// Custom styles for the social media callouts
+.socialmedia-callouts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); // 4 columns
+    gap: 1rem;
+}
+
+// Responsive adjustments for smaller screens
+@media (max-width: 768px) {
+    .socialmedia-callouts {
+        grid-template-columns: repeat(2, 1fr); // 2 columns on small screens
+    }
+}
