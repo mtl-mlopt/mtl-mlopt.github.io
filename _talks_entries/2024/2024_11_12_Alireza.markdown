@@ -1,0 +1,10 @@
+---
+author: Alireza Mousavi-Hosseini
+title: "Learning and Optimization with the Mean-Field Langevin Dynamics"
+date: 2024-11-13 1:00pm
+room: Mila Auditorium 2
+---
+
+Many problems in machine learning, such as training two-layer neural networks or sparse spike deconvolution, can be cast as optimization over the space of signed measures. On the other hand, the mean-field Langevin dynamics (MFLD) provides a class of interacting particle algorithms for optimization in the space of probability measures. In the first half of the talk, we will consider two known reductions from signed to probability measures — the lifting and the bilevel approaches — for applying MFLD to signed measures, and show that in general the bilevel reduction leads to stronger guarantees and faster rates (at the price of a higher per-iteration complexity).
+
+In the second half, we will focus on the statistical implications of MFLD. Specifically, we will focus on the example of learning multi-index models, functions that depend on a low-dimensional projection of the input, with two-layer neural networks. We will show that in this case, MFLD (which reduces to noisy gradient descent) achieves sample complexity linear in an effective dimension, which is information theoretically optimal for isotropic input.
