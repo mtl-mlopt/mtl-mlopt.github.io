@@ -1,2 +1,0 @@
-# MontrealMLOptimization.github.io
-Website
