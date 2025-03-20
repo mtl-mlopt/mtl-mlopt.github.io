@@ -1,7 +1,7 @@
 ---
 author: Ryan D'Orazio
 title: "Solving hidden monotone variational inequalities with surrogate losses"
-date: 2025-03-20 1:00pm
+date: 2025-03-26 1:00pm
 room: Mila Auditorium 2
 ---
 
