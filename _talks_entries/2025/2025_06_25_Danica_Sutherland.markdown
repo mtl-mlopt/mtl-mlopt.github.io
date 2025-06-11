@@ -1,7 +1,7 @@
 ---
 author: Danica Sutherland
 title: "Local Learning Dynamics Helps Explain (Post-)Training Behaviour"
-date: 2025-06-24 1:00pm
+date: 2025-06-25 1:00pm
 room: Mila Auditorium 2
 ---
 
