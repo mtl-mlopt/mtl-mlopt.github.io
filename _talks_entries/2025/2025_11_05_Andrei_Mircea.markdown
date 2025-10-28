@@ -1,7 +1,7 @@
 ---
 author: Andrei Mircea
 title: "Training Dynamics Underlying Language Model Scaling Laws: Loss Deceleration and Zero-Sum Learning"
-date: 2025-10-29 1:00pm
+date: 2025-11-05 1:00pm
 room: Mila Auditorium 2
 ---
 
